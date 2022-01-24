@@ -41,6 +41,7 @@ int main()
 
     //###Benutzereingabe Datei###
 
+    printf("!!!zu verschluesselnde Datei muss im selben Ordner wie Code sein!!! \n");
     printf("Dateiname: ");
     //Benutzereingabe
     fgets(cdatei, Dateiname_MAX, stdin);                                //In welches Array speichern, max. Anzahl an Zeichen, Eingabetyp: Standardeingabe
@@ -63,8 +64,9 @@ int main()
             printf("gelesen: %c \n", crd[n]);
             n++;
         }
-        //gibt komplette Datei aus
-        printf("%s", crd);
+
+        //gibt komplett eingelesene Datei aus
+        printf("\n%s \n", crd);
 
     }
 
