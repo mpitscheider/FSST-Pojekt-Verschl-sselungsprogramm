@@ -63,7 +63,7 @@ void start()
         printf("\n");
         printf("Filename: ");
         scanf("%s", &in);
-        printf("IMPORTANT: The encryption-code must be the same for both encryption and decryption.!\n");
+        printf("IMPORTANT: The encryption-code must be the same for both encryption and decryption!\n");
         printf("Encryption-Code: ");
         scanf("%d", &vcode);
         if (a == 1)
